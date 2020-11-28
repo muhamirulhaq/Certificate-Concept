@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="contoh">Nama saya adalah </div>
+        <a href="coba.html">Ketik Ulang Nama</a>
+
+        <script>
+            const prmpt = prompt("Nama?");
+            const div = document.querySelector(".contoh");
+            
+            if(prmpt !== null) div.innerHTML += prmpt;
+            else div.innerHTML += "(Anda belum memasukkan nama)";
+        </script>
+    </body>
+</html>
